@@ -1,13 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-lime-950">
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="bg-white">
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+      <div class="flex justify-between items-center">
+        <span class="text-2xl font-[Nunito]"> TGNETWORK </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opaciy-100 opaciy-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-orange-500 duration-500"
+            >Home</a
+          >
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-orange-500 duration-500"
+            >About</a
+          >
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-orange-500 duration-500"
+            >Skills</a
+          >
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-orange-500 duration-500"
+            >Services</a
+          >
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-orange-500 duration-500"
+            >Portfolio</a
+          >
+        </li>
+
+        <button
+          class="bg-orange-500 text-white font-[Inter] duration-500 px-6 py-2 mx-4 hover:bg-white rounded-full"
+        >
+          Contact Me
+        </button>
+      </ul>
+    </nav>
+
+    <script src="app.js"></script>
+  </body>
 </html>
