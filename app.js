@@ -19,3 +19,35 @@ function revealIcon() {
   }
 }
 timeIndicator.addEventListener("click", revealIcon);
+   // for modal 1
+var popUp = document.getElementById("popup");
+
+function openPopup() {
+  popUp.classList.remove("hidden")
+}
+
+function closePopup() {
+  popUp.classList.add("hidden")
+}
+
+ // for modal 2
+ var popUp2 = document.getElementById("popup2");
+
+function openPopup2() {
+  popUp2.classList.remove("hidden")
+}
+
+function closePopup2() {
+  popUp2.classList.add("hidden")
+}
+
+// for modal 3
+var popUp3 = document.getElementById("popup3");
+
+function openPopup3() {
+  popUp3.classList.remove("hidden")
+}
+
+function closePopup3() {
+  popUp3.classList.add("hidden")
+}

@@ -14,3 +14,22 @@
 .moon.sun {
   display: block;
 }
+
+span {
+  font-family: 'Nunito', sans-serif;
+}
+
+.open-popup{
+  visibility: visible;
+}
+
+.open-popup2{
+  visibility: visible;
+}
+
+.open-popup3{
+  visibility: visible;
+}
+
+
+
