@@ -51,3 +51,6 @@ function openPopup3() {
 function closePopup3() {
   popUp3.classList.add("hidden")
 }
+
+//for  portfolio
+ var active = document.getElementById("active")
